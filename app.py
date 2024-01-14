@@ -6,6 +6,7 @@ app = FastAPI()
 @app.get("/")
 def home():
     return{"Message":"Hi Sir!"}
+
 @app.get("/posts")
 def get_posts():
     return posts
